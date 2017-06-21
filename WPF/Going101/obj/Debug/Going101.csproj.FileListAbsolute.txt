@@ -1,0 +1,17 @@
+C:\Users\Vandooz\Desktop\Going101\Going101\bin\Debug\Going101.exe.config
+C:\Users\Vandooz\Desktop\Going101\Going101\bin\Debug\Going101.exe
+C:\Users\Vandooz\Desktop\Going101\Going101\bin\Debug\Going101.pdb
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\Going101.csprojResolveAssemblyReference.cache
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\MainWindow.g.cs
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\App.g.cs
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\Going101_MarkupCompile.cache
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\Going101_MarkupCompile.lref
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\MainWindow.baml
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\Going101.g.resources
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\Going101.Properties.Resources.resources
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\Going101.csproj.GenerateResource.Cache
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\Going101.exe
+C:\Users\Vandooz\Desktop\Going101\Going101\obj\Debug\Going101.pdb
+C:\Users\Vandooz\Desktop\Going101wpf\Going101\bin\Debug\Going101.exe.config
+C:\Users\Vandooz\Desktop\Going101wpf\Going101\obj\Debug\Going101.exe
+C:\Users\Vandooz\Desktop\Going101wpf\Going101\obj\Debug\Going101.pdb
