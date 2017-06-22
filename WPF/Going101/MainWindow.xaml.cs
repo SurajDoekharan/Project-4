@@ -30,5 +30,10 @@ namespace Going101
             //categorieen inladen
         }
 
+        private void Testpage_Click(object sender, RoutedEventArgs e)
+        {
+            Page1 pageone = new Page1();
+            this.Content = pageone;
+        }
     }
 }

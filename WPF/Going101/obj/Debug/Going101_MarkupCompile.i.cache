@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Z\Desktop\Going101wpf\Going101\obj\Debug\
+C:\Users\Z\Desktop\WPF\Going101\obj\Debug\
 Going101
 none
 false
 DEBUG;TRACE
-C:\Users\Z\Desktop\Going101wpf\Going101\App.xaml
-11151548125
+C:\Users\Z\Desktop\WPF\Going101\App.xaml
+2400784391
 
-12-128750836
+141208126719
 13738642453
-MainWindow.xaml;
+MainWindow.xaml;Page1.xaml;
 
-True
+False
 
