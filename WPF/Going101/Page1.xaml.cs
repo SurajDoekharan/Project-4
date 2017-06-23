@@ -24,17 +24,38 @@ namespace Going101
         {
             InitializeComponent();
 
+            GUIElement LabelElement = GUIFactory.initialize(0);
+            Label Label = new Label
+            {
+                Content = LabelElement.GetText(),
+            };
+
+
+            GUIElement ButtonElement = GUIFactory.initialize(1);
+            Button Button = new Button
+            {
+                Content = ButtonElement.GetText()
+            };
+
+
+
+            this.Content = new Grid
+            {
+                Children =
+                {
+                    Label,
+                    Button
+
+                }
+            };
+
             var iterator = new CategorieIterator();
 
-            //while (iterator.HasNext())
-            foreach(Categories i in iterator.categories)
+            foreach (Categories i in iterator.categories)
             {
                 iterator.MoveNext();
-                //Console.WriteLine(iterator.GetCurrent().Title);
                 listboxc.Items.Add(iterator.GetCurrent().Title);
             }
-
-            
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
@@ -43,4 +64,5 @@ namespace Going101
             this.Content = mw;
         }
     }
+
 }
