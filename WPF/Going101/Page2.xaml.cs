@@ -20,11 +20,11 @@ namespace Going101
     /// </summary>
     public partial class Page2 : Page
     {
-        DB conn = new DB("localhost", "root", "3306", "Z46f5x65V", "project4test");
+        DB conn = new DB("project4test");
         public Page2()
         {
             InitializeComponent();
-            
+            conn.selectQuery("SELECT * FROM events");
         }
     }
 }

@@ -12,9 +12,14 @@ namespace Going101
 {
     class DB
     {
-        MySql.Data.MySqlClient.MySqlConnection conn;
-        string myConnectionString;
-        DataTable table = new DataTable();
+        private MySql.Data.MySqlClient.MySqlConnection conn;
+        private string myConnectionString;
+
+        private string server = "localhost";
+        private string port =   "3306";
+        private string usern =  "root";
+        private string pw =     "";         //FILL IN PASSWORD
+        private string datab;
 
         private DataTable getSQLTable(string request, MySql.Data.MySqlClient.MySqlConnection conn)
         {
@@ -35,7 +40,7 @@ namespace Going101
 
             dt.Load(cmd.ExecuteReader());
            
-            //to read the table out:
+            //read the non-sql table value out example:
             var rows = dt.AsEnumerable().ToArray();
             Console.WriteLine(rows[0]["Name"]);
 
@@ -43,21 +48,24 @@ namespace Going101
             //return rows;
         }
 
-        public DB(string server, string uid, string port, string pwd, string db)
+        private void Connect()
         {
-            //dbConnection("localhost", "root", "3306", "Z46f5x65V", "project4test");
-            myConnectionString = "server=" + server + ";uid=" + uid + ";port= " + port + ";" +
-               "pwd=" + pwd + ";database=" + db + ";";
+            string servr = server;
+            string prt = port;
+            string uid = usern;
+            string pwd = pw;
+            string db = datab;
+
+            this.myConnectionString = "server=" + servr + ";uid=" + uid + ";port= " + prt + ";" +
+                                      "pwd=" + pwd + ";database=" + db + ";";
 
             try
             {
                 conn = new MySql.Data.MySqlClient.MySqlConnection(myConnectionString);
-                Console.WriteLine("Connecting to server");
                 conn.Open();
 
-                //sets request in a not-sql table for outside sql usage
-                table = getSQLTable("SELECT * FROM events", conn);
-                
+                Console.WriteLine("> Test connection made with SQL DB");
+
             }
             catch (MySql.Data.MySqlClient.MySqlException ex)
             {
@@ -71,7 +79,34 @@ namespace Going101
                         break;
                 }
             }
+            Console.WriteLine("> SQL DB test connection closing");
             conn.Close();
         }
+
+        public DataTable selectQuery(string request)
+        {
+            DataTable table = new DataTable();
+            try
+            {
+                conn = new MySql.Data.MySqlClient.MySqlConnection(myConnectionString);
+                conn.Open();
+
+                table = getSQLTable(request, conn);
+
+            }
+            catch (MySql.Data.MySqlClient.MySqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            conn.Close();
+            return table;
+        }
+
+        public DB(string db)
+        {
+            this.datab = db;
+            Connect();
+        }
+
     }
 }
