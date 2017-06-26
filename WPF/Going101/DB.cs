@@ -10,7 +10,7 @@ using MySql.Data.MySqlClient;
 
 namespace Going101
 {
-    class sql
+    class DB
     {
         MySql.Data.MySqlClient.MySqlConnection conn;
         string myConnectionString;
@@ -25,22 +25,25 @@ namespace Going101
             MySqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                Console.WriteLine(reader[0] + " " + reader[1] + " " + reader[2] + " " + reader[3]);
+                for (var i = 0; i < reader.FieldCount; i++)
+                {
+                    Console.Write(reader[i] + " ");
+                }
+                Console.WriteLine();
             }
             reader.Close();
 
-
             dt.Load(cmd.ExecuteReader());
-            return dt;
-
+           
             //to read the table out:
-            //var rows = dt.AsEnumerable().ToArray();
-            //rows[0]["Name"]
-            
+            var rows = dt.AsEnumerable().ToArray();
+            Console.WriteLine(rows[0]["Name"]);
+
+            return dt;
             //return rows;
         }
 
-        public sql(string server, string uid, string port, string pwd, string db)
+        public DB(string server, string uid, string port, string pwd, string db)
         {
             //dbConnection("localhost", "root", "3306", "Z46f5x65V", "project4test");
             myConnectionString = "server=" + server + ";uid=" + uid + ";port= " + port + ";" +
