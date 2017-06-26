@@ -1,0 +1,7 @@
+CREATE TABLE `project4test`.`events` (
+  `ID` INT NOT NULL AUTO_INCREMENT,
+  `Type` INT NOT NULL DEFAULT 1,
+  `Name` TEXT(256) NOT NULL,
+  `Description` VARCHAR(256) NULL DEFAULT 'No Description',
+  PRIMARY KEY (`ID`),
+  UNIQUE INDEX `ID_UNIQUE` (`ID` ASC));

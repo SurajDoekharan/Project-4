@@ -35,5 +35,11 @@ namespace Going101
             Page1 pageone = new Page1();
             this.Content = pageone;
         }
+
+        private void Testpage2_Click(object sender, RoutedEventArgs e)
+        {
+            Page2 pagetwo = new Page2();
+            this.Content = pagetwo;
+        }
     }
 }

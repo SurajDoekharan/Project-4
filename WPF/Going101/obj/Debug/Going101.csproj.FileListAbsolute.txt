@@ -31,3 +31,6 @@ C:\Users\Z\Desktop\WPF\Going101\obj\Debug\Page1.baml
 C:\Users\Z\Desktop\WPF\Going101\obj\Debug\Going101.g.resources
 C:\Users\Z\Desktop\WPF\Going101\obj\Debug\Going101.Properties.Resources.resources
 C:\Users\Z\Desktop\WPF\Going101\obj\Debug\Going101.csproj.GenerateResource.Cache
+C:\Users\Z\Desktop\WPF\Going101\obj\Debug\Page2.g.cs
+C:\Users\Z\Desktop\WPF\Going101\bin\Debug\MySql.Data.dll
+C:\Users\Z\Desktop\WPF\Going101\obj\Debug\Page2.baml
