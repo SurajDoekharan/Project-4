@@ -1,11 +1,7 @@
 ﻿//use package control manager and put in "PM > Install-Package MySql.Data -Version 6.9.9" to make it work
 using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
 using System.Data;
-using MySql.Data;
 using MySql.Data.MySqlClient;
 
 namespace Going101
@@ -18,7 +14,7 @@ namespace Going101
         private string server = "localhost";
         private string port =   "3306";
         private string usern =  "root";
-        private string pw =     "";         //FILL IN PASSWORD
+        private string pw =     "Z46f5x65V";
         private string datab;
 
         private DataTable getSQLTable(string request, MySql.Data.MySqlClient.MySqlConnection conn)

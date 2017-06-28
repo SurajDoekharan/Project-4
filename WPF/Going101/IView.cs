@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Going101.ViewModel
+namespace Going101
 {
-    class MainWindowVM
+    public interface IView
     {
+        void InitLayout();
     }
 }
