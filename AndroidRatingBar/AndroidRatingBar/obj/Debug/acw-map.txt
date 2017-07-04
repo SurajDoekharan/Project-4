@@ -1,0 +1,4 @@
+AndroidRatingBar.MainActivity, AndroidRatingBar;md53d97f326e87a0f3d558377837284f090.MainActivity
+AndroidRatingBar.MainActivity, AndroidRatingBar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53d97f326e87a0f3d558377837284f090.MainActivity
+AndroidRatingBar.MainActivity;md53d97f326e87a0f3d558377837284f090.MainActivity
+androidratingbar.MainActivity;md53d97f326e87a0f3d558377837284f090.MainActivity

@@ -1,0 +1,15 @@
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\bin\Debug\AndroidRatingBar.dll
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\bin\Debug\AndroidRatingBar.pdb
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\bin\Debug\AndroidRatingBar.AndroidRatingBar.apk
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\bin\Debug\AndroidRatingBar.AndroidRatingBar-Signed.apk
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\AndroidRatingBar.csprojResolveAssemblyReference.cache
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\AndroidRatingBar.dll
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\AndroidRatingBar.pdb
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\android\bin\AndroidRatingBar.AndroidRatingBar.apk
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\res\layout\main.xml
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\res\values\strings.xml
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\res\drawable\icon.png
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\R.cs.flag
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\uploadflags.txt
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\bin\Debug\AndroidRatingBar.dll.mdb
+c:\users\suraj\onedrive\documenten\visual studio 2017\Projects\AndroidRatingBar\AndroidRatingBar\obj\Debug\android\assets\AndroidRatingBar.dll.mdb
